@@ -6,11 +6,11 @@ function Counter(props) {
 
   return (
     <div className='counter'>
-      <button onClick={() => props.hdlUpdate(props.item.id, -1)}> - </button>
+      <button className="b" onClick={() => props.hdlUpdate(props.item.id, -1)}> - </button>
       <h3>{props.item.number}</h3>
-      <button onClick={() => props.hdlUpdate(props.item.id, 1)}> + </button>
-      <button onClick={() => props.hdlUpdate(props.item.id, -props.item.number)}> C </button>
-      <button onClick={() => props.removeCounter(props.item.id,-props.item.number)}> X </button>
+      <button className="b" onClick={() => props.hdlUpdate(props.item.id, 1)}> + </button>
+      <button className="b" onClick={() => props.hdlUpdate(props.item.id, -props.item.number)}> C </button>
+      <button className="X" onClick={() => props.removeCounter(props.item.id,-props.item.number)}> X </button>
     </div>
   )
 }

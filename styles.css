@@ -55,6 +55,14 @@ video {
     flex: 1;
     font-size: 24px;
   }
+  .b:hover{
+    background-color: rgb(255, 183, 0);
+    transition: 150ms;
+  }
+  .X:hover{
+    background-color: red;
+    transition: 150ms;
+  }
   .text-center{
     margin-top: 100px;
     text-align: center;
@@ -71,11 +79,17 @@ video {
     color: #ffffff;
     padding: 8px;
     border-radius: 16px;
+    font-weight: bold;
+  }
+  .btn-center:hover{
+    background-color: #000000;
+    color: rgb(255, 0, 106);
   }
   .counter h3{
     padding-top: 14px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     height: 100%;
     flex: 1;
     font-size: 24px;
+    color: #333;
   }
